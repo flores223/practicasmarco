@@ -1,0 +1,65 @@
+/*Documento.css*/
+*{margin:0%;
+    padding:0%; }
+body { background-color: rgba(66, 219, 28, 0.87);}
+
+.cabecera {background: rgba(84, 255, 41, 0.8);
+             text-align: center;
+            padding: 20px 0px; }
+
+h1 {font-family: 'Libre Baskerville', serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.8em;
+         color: rgb(145, 144, 144);
+        text-shadow: 0px 0px 20px rgb(7, 7, 7) ; }
+.cuerpo { width: 85%; 
+           background-color: rgb(215, 218, 218); 
+           margin: 50px auto;  
+          padding: 40px 15px; 
+           box-sizing: border-box; 
+          display: flex;
+          border-radius: 5px; 
+           box-shadow: 0px 0px 3px rgb(49, 49, 49);}
+
+.item { width: 50%; }
+
+h3{ font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+    padding: 20px 0px;  
+      line-height: 1.5;}
+.space {padding-right: 15; 
+        box-sizing: border-box;}
+.space 2 {padding-left: 15px;}
+.space2 input, .space2 textarea { display black;
+                               width: 100%;
+                                height: 30px;: 80px ;
+                                 margin 10px 0px;}
+.space2 textarea  { height 100px;    
+                   max-width: 100%;   
+                    min-width: 100%; }       
+
+.space2 input:active, .space2 textarea:active { border: 8px rgb(255, 0, 0) solid; }  
+
+.space2 input:hover, .space2 textarea:hover { border: 4px rgb(255, 123, 0) solid; }  
+
+input::placeholder,input::placeholder, { tipografia  }
+
+.cuerpo::before { content:""; 
+                   display: block;
+                   width:100px;
+                    height:100px;
+                    background-image:url(../img/gmail.jpg.svg) ;
+                     background-repeat: no-repeat;
+                    background-size:100%;
+                     position:relative; 
+                      top:-50px;
+                     left:-50px; }
+
+.cuerpo::after { content:"" }
+
+.pie { background-color: rgb(253, 3, 3);
+       width: 50px;
+        height: 15px;}
+
+
+        

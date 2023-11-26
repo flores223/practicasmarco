@@ -4,11 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tablas y videos Html</title>
+<!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/videos.css">
 </head>
 <body>
-    <header>
+    <header class="cabecera">
         <h1>Tablas y videos Html</h1>
+        <small>semantica html</small>
     </header>
+    <main class="principal"></main>
     <section class="Tablas">
         <table>
             <tr>
@@ -79,13 +86,15 @@
     </section>
     <main>
          <section class="videos">
+            <div class="items"></div>
             <h2>video incrustado</h2>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/GKDkKKt9Y7I?si=0t2Hl-06Uw3Odohw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe  src="https://www.youtube.com/embed/GKDkKKt9Y7I?si=0t2Hl-06Uw3Odohw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
          </section>
          <section class="videos">
             <h2>video instertado</h2>
-            <video controls width="560" height="315" src="../videos/theexpance.mp4"></video>
+            <div class="items"></div>
+            <video  src="../videos/theexpance.mp4"></video>
 
          </section>
     </main>
