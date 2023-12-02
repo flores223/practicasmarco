@@ -1,0 +1,47 @@
+/*Documento css*/
+
+.container {
+    line-height: 25px;
+    margin: 100px;
+    text-align: center;
+    font-size: 17px;
+    padding: 100px;
+    margin: 2px;
+    list-style: none;
+    display: flex;
+        align-items: stretch;
+         display: flex;
+        flex-direction: column;
+         background-color: aqua;
+
+}
+
+.perfil { 
+       margin: 3px;
+       align-items: center;
+       background-color: rgb(94, 253, 21);
+       text-align: center;
+       display: flex;
+}
+
+.table {
+    margin-right: 5%;
+      line-height: 230%;
+     line-height: 1.5;
+    min-height: 30px;
+     margin: 3px;
+     width: 0% 30px;
+    background-color: blue;
+      
+      display: flex;
+}
+
+.item {
+    margin-right: 10px;
+    display: flex;
+    background-color: blueviolet;
+}
+
+.pie {
+    background-color: midnightblue;
+}

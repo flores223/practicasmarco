@@ -1,0 +1,48 @@
+/*Documento css*/
+
+*{ margin: 0;
+    padding: 0;}
+
+div, header, section, nav, article, footer,aside { box-sizing: border-box;}
+
+
+.flex-contaner{
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    background: rgb(255, 125, 125);
+    padding: 15px;
+   
+}
+
+.items { width: 100%;
+        min-height: 200px;
+        text-align: center;
+        color: black;
+        font-size: 10em;
+}
+/*media queries pantalla mayores a 600px*/
+
+@media only screen and (min-width:600px) {
+
+    .items { color: rgb(255, 0, 0);
+             background-color: rgb(255, 220, 155); 
+            margin-bottom: 15px;}
+}
+/*pantallas de mayores a  778px*/
+@media only screen and (min-width:778px ) {
+
+    .items { color: rgb(17, 0, 255);
+            }
+}
+
+/*pantallas de mayores a  778px*/
+@media only screen and {flex-flow: row wrap;
+                    width: 40%; 
+                        margin: auto;
+                    background-color: transparent;}  {
+
+    .items { color: rgb(17, 0, 255);
+              background-color: transparent;
+            width: 33.33%;}
+}

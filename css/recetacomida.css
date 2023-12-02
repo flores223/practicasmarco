@@ -1,0 +1,44 @@
+/*Documento css*/
+
+.cabecera { color: rgb(255, 5, 17);
+    border: 50px solid rgb(7, 3, 250);
+    height: 0px;
+}
+h5 { 
+    margin-top: 150px;
+    width: 150px;
+    display: flex;
+   margin-left: 550px;
+  }
+.contenedor {     
+
+    display: flex;
+    align-items: center;
+}
+
+.text {   
+    margin-left: 50px;
+ }
+
+.croque { width: 350px;
+              height: 300px; }
+
+
+.comida {  
+    display: flex;
+    justify-content: center;
+}
+
+.imgen {
+    width: 350px;
+    margin: 0 10px;
+ }
+
+
+
+
+
+.fondo { background-color: darkred;   
+    padding: 45px; 
+    margin-left: 5px;    }
+ 

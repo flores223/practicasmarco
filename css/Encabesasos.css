@@ -1,3 +1,27 @@
 /*Documento css*/
 
-body  {}
+body  { background-color: lime;}
+
+h1 { color: darkgreen;
+    text-aling: center;}
+
+h2, h4 { color: red;}
+h5, h6 { color:blue
+}
+
+@font-face {
+    font-family: 'skeinaregular';
+    src: url('/webfontkit-20231115-160116/skeina-webfont.woff') format('woff2'),
+         url('skeina-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+.tipografia {
+    color: rgb(0, 225, 255);
+    text-align: center;
+    background-color: aqua;
+}
