@@ -1,0 +1,84 @@
+/*Documento css*/
+
+.pollo {
+    text-align: left;
+    background-color: blue;
+    display: flex;
+}
+
+
+
+.cabecera{
+    
+    margin: 20px;
+}
+
+.salsa {
+     display: flex;
+    align-items: stretch;
+    text-align: left;
+    margin: 15px;
+    padding: 30px;
+  
+    background-color: brown;
+}
+
+    
+
+
+.logo {
+    width: 200px;
+    margin-left: 40%;
+    padding: 30px;
+    min-height: 30px;
+     display: flex;
+}
+
+.tacos {
+   display: flex;
+    background-color: rgb(12, 137, 255);
+    text-align: left;
+    margin: 0px 10px;
+     text-align: right;
+    
+}
+
+
+
+.chilaquiles {
+     background-color: deeppink;
+      display: flex;
+      text-align: left;
+    align-items: center;
+    
+    margin-left: 10px;
+  
+  
+  
+    margin: 0px 10px;
+    text-align: right;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.texto {
+     
+     text-align: left;
+     margin-left: 10px;
+   
+  
+    margin: 40px ;
+  
+}
+

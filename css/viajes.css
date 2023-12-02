@@ -1,0 +1,26 @@
+/*Documento.css*/
+* {margin:0%;
+    padding:0%; }
+body { background-image:url(/img/confeti.jpg.jpeg) ;
+      background-repeat:no-repeat;
+      font-family: 'Raleway', sans-serif;
+      font-family: 'Aclonica', sans-serif;
+font-family: 'Exo 2', sans-serif;  }
+
+.cabecera {background: rgba(84, 255, 41, 0.8);
+    text-align: center;
+   padding: 20px 10px; 
+    margin: 30px; 
+     font-size: 20px;}
+
+
+.h2 { background-color: aqua;  
+    font-family: 'Aclonica', sans-serif;} 
+
+p { font-family: 'Aclonica', sans-serif;
+                color: rgb(30, 255, 0);} 
+
+.h1, h2, h3 { color: blue; }
+
+footer { background-color: blueviolet; }
+

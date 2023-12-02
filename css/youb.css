@@ -1,0 +1,25 @@
+/*Documento.css*/
+
+.musica i {
+    display: flex;
+    width: 50px;
+font-size: 50px;
+color: blue;
+}
+header{
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.flex-video {
+    padding-left: 2%;
+    height: 100%;
+    font-size: 18px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+
+
+
